@@ -1,0 +1,30 @@
+.page{
+  width: 500px;
+}
+
+.globalNavBar{
+  padding: 15px;
+	background-color: skyblue;
+}
+
+.main{
+	background-color: white;
+}
+.main::after{ clear: both; display: block; content: '' }
+
+.leftNavBar{
+  float: left;
+	width: 100px;
+	height: 254px;
+	background-color: orange;
+}
+
+.content{
+  float: left;
+	width: 400px;
+}
+
+.footer{
+  padding: 15px;
+	background-color: #ddd;
+}
